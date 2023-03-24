@@ -1,0 +1,60 @@
+.sign-in-btn {
+    display: inline-block;
+    background: #fff;
+    color: #444;
+    width: 250px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px #667;
+    white-space: nowrap;
+}
+
+.sign-in-btn:hover {
+    cursor: pointer;
+}
+
+.sign-in-btn > .icon {
+    background: url('./glogo.png') #fff 5px 50% no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+}
+
+.sign-in-btn > .txt {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    max-width: 600px;
+}
+
+.result > .span-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 100%;
+}
+
+.result > .span-group > span {
+    text-align: center;
+    color: #333;
+    width: 100%;
+    font-weight: 500;
+    font-family: sans-serif;
+}

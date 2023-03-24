@@ -1,0 +1,28 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    max-width: 600px;
+}
+
+.result > .span-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 100%;
+}
+
+.result > .span-group > span {
+    text-align: center;
+    color: #333;
+    width: 100%;
+    font-weight: 500;
+    font-family: sans-serif;
+}
