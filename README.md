@@ -1,3 +1,3 @@
 # CSYT2
 
-An Ad-Blocker And Video Un-Blocker For YouTube.
+An Ad-Blocker For YouTube.
